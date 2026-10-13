@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Russian interface language",
+    "description": "Translates the DeepSeek Harness interface into Russian by replacing the shipped dictionaries per namespace. It patches no foreign code and disables nothing."
+  }
+}
