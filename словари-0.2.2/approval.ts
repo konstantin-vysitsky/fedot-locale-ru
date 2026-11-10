@@ -1,0 +1,13 @@
+/**
+ * Русский словарь пространства имён `approval`.
+ */
+
+export default {
+  'waiting': 'Ожидание подтверждения',
+  'detail.aria': 'Подробности подтверждения',
+  'escalation': 'Инструмент {toolName} запрашивает выполнение с повышенными правами',
+  'reject': 'Отклонить',
+  'allow': 'Разрешить',
+  'allowOnce': 'Разрешить один раз',
+  'allowAlways': 'Разрешать всегда',
+} satisfies Record<string, string>

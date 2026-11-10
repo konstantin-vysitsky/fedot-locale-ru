@@ -1,0 +1,37 @@
+/**
+ * Русский словарь пространства имён `question`.
+ */
+
+export default {
+  'error.incomplete': 'Сначала ответьте на этот вопрос.',
+  'error.unanswered': 'Выберите вариант или введите свой ответ.',
+  'error.unavailable': 'Сейчас отправить нельзя; повторите через минуту.',
+  'error.resubmit': 'Ответ не пришёл до продолжения работы; отправьте его ещё раз.',
+  'status.sent': 'Ответ отправлен; закрыть панель не удалось.',
+  'wait.takeTime': 'Не спешить',
+  'wait.countdown': 'Продолжение через {seconds} с',
+  'wait.paused': 'Пауза · осталось {seconds} с',
+  'wait.held': 'Ждём ответа',
+  'wait.continued': 'Работа продолжена — ответить ещё можно',
+  'review.status': 'Отвечено',
+  'review.skipped': 'Этот вопрос пропущен.',
+  'reply.label': 'Вопросы и ответы',
+  'reply.answerLabel': 'Ответ: ',
+  'reply.skipped': 'Пропущен',
+  'nav.prev': 'Предыдущий вопрос',
+  'nav.next': 'Следующий вопрос',
+  'nav.minimize': 'Свернуть карточку вопроса',
+  'nav.maximize': 'Развернуть карточку вопроса',
+  'nav.cancel': 'Закрыть все вопросы',
+  'nav.close': 'Закрыть панель — открыть её снова можно из вызова инструмента',
+  'text.expand': 'Развернуть',
+  'text.collapse': 'Свернуть',
+  'option.recommended': 'Рекомендуется',
+  'custom.placeholder': 'Введите ответ',
+  'action.skip': 'Пропустить',
+  'action.next': 'Далее',
+  'plan.header': 'Проверка плана',
+  'plan.approve': 'Утвердить',
+  'plan.decline': 'Отклонить',
+  'plan.discuss': 'Запросить изменения',
+} satisfies Record<string, string>

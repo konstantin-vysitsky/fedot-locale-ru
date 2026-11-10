@@ -1,0 +1,29 @@
+/**
+ * Русский словарь пространства имён `model`.
+ */
+
+export default {
+  'provider.account': 'Учётная запись DeepSeek',
+  'command.label': 'Модель',
+  'command.description': 'Выбрать модель для этого разговора',
+  'option.loadError': 'Не удалось загрузить каталог: {message}',
+  'trigger.fallback': 'Выбрать модель',
+  'trigger.loading': 'Загрузка моделей…',
+  'trigger.selectAria': 'Выбрать модель',
+  'trigger.aria': 'Выбрать модель, текущая {model}',
+  'trigger.ariaEffort': 'Выбрать модель, текущая {model}, уровень рассуждений {effort}',
+  'menu.aria': 'Модель и уровень рассуждений',
+  'menu.model': 'Модель',
+  'menu.effort': 'Уровень рассуждений',
+  'effort.providerDefault': 'По умолчанию',
+  'status.loading': 'Обновление списка моделей…',
+  'error.action': 'Не удалось выполнить операцию с моделью: {message}',
+  'error.sessionInUse': 'Эта сессия уже используется, возможно, другим запущенным экземпляром DSH (например, dsh web или настольным приложением). Закройте другие запущенные экземпляры DSH и попробуйте снова.',
+  'action.reload': 'Перезагрузить',
+  'warning.groupLoad': 'Не удалось загрузить {name}: {message}',
+  'search.placeholder': 'Поиск моделей…',
+  'search.clear': 'Очистить поиск',
+  'search.empty': 'Подходящих моделей нет.',
+  'empty.models': 'Нет доступных моделей.',
+  'empty.efforts': 'Эта модель не поддерживает уровни рассуждений.',
+} satisfies Record<string, string>
